@@ -3,7 +3,7 @@ import streamlit as st
 from PyPDF2 import PdfReader
 
 # Replace with your Plagly API key
-API_KEY = "nPpTp5ircZXwbzSNsLsStjFe9UYujLxK"
+API_KEY = "cfzxIJcfztfuNOwDAskO62AOIJcfzxJrc"
 
 
 def extract_text_from_pdf(file):
@@ -19,7 +19,7 @@ def extract_text_from_pdf(file):
 
 
 def check_plagiarism(text):
-    url = 'https://api.plagly.com/v2/documents'
+    url = "https://api.plagly.com"
     headers = {
         'Content-Type': 'text/plain',
         'apikey': API_KEY
