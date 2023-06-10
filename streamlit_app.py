@@ -3,7 +3,7 @@ import streamlit as st
 from PyPDF2 import PdfReader
 
 # Replace with your Plagly API key
-API_KEY = 'cfzxIJcfztfuNOwDAskO62AOIJcfzxJrc'
+API_KEY = 'WsvCMDOVNhUSGrB5X1E3dFzxZ3Y61Atd'
 
 
 def extract_text_from_pdf(file):
